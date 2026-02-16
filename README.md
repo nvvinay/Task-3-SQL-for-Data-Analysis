@@ -50,9 +50,8 @@ Task-3-SQL/
 ---
 
 ## 🔍 Queries Performed
-
-1️⃣ SELECT with WHERE
 ```sql
+1️⃣ SELECT with WHERE
 SELECT * FROM customers
 WHERE country = 'India';
 
@@ -91,15 +90,19 @@ HAVING total_spent > 30000;
 7️⃣ Index Creation
 CREATE INDEX idx_customer_id
 ON orders(customer_id);
+```
 
-📊 Output
+
+📊 Output:
 Screenshots of executed queries and results
 
-🎯 Outcome
-Successfully created a relational database using SQLite
-Executed multiple SQL queries for data analysis
-Demonstrated understanding of joins, aggregation, subqueries, views, and indexing
+🎯 Outcome:
+Successfully created a relational database using SQLite,
+Executed multiple SQL queries for data analysis,
+Demonstrated understanding of joins, aggregation, subqueries, views, and indexing.
 
 👨‍💻 Author
 
-Jayanth B
+Vinay N V
+
+
